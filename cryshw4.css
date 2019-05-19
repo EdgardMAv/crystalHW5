@@ -1,0 +1,12 @@
+body{
+    background-color: bisque
+}
+.column{
+    float: left;
+    width: 25%;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
